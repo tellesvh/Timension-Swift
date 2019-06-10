@@ -15,7 +15,63 @@
 		2301344222AEAB1200D48A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2301344022AEAB1200D48A3E /* Main.storyboard */; };
 		2301344422AEAB1500D48A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2301344322AEAB1500D48A3E /* Assets.xcassets */; };
 		2301344722AEAB1500D48A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2301344522AEAB1500D48A3E /* LaunchScreen.storyboard */; };
+		2301345622AEAB2D00D48A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2301345522AEAB2D00D48A3E /* Assets.xcassets */; };
+		2301345D22AEAB2E00D48A3E /* TimensionWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2301345C22AEAB2D00D48A3E /* TimensionWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2301346822AEAB2E00D48A3E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301346722AEAB2E00D48A3E /* ExtensionDelegate.swift */; };
+		2301346A22AEAB2F00D48A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2301346922AEAB2F00D48A3E /* Assets.xcassets */; };
+		2301346E22AEAB2F00D48A3E /* TimensionWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2301345022AEAB2B00D48A3E /* TimensionWatch.app */; };
+		2301347822AEAC3300D48A3E /* Timension.png in Resources */ = {isa = PBXBuildFile; fileRef = 2301347722AEAC3300D48A3E /* Timension.png */; };
+		2301347922AEAC3300D48A3E /* Timension.png in Resources */ = {isa = PBXBuildFile; fileRef = 2301347722AEAC3300D48A3E /* Timension.png */; };
+		2301347A22AEAC3300D48A3E /* Timension.png in Resources */ = {isa = PBXBuildFile; fileRef = 2301347722AEAC3300D48A3E /* Timension.png */; };
+		2301348322AEACDF00D48A3E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2301348222AEACDF00D48A3E /* Interface.storyboard */; };
+		2301348422AEACDF00D48A3E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2301348222AEACDF00D48A3E /* Interface.storyboard */; };
+		2301348922AEAD1F00D48A3E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301348622AEAD1F00D48A3E /* GameScene.swift */; };
+		2301348A22AEAD1F00D48A3E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301348722AEAD1F00D48A3E /* InterfaceController.swift */; };
+		2301348B22AEAD1F00D48A3E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2301348822AEAD1F00D48A3E /* GameScene.sks */; };
+		2301348C22AEAD1F00D48A3E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2301348822AEAD1F00D48A3E /* GameScene.sks */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2301345E22AEAB2E00D48A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2301342B22AEAB1200D48A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2301345B22AEAB2D00D48A3E;
+			remoteInfo = "TimensionWatch Extension";
+		};
+		2301346C22AEAB2F00D48A3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2301342B22AEAB1200D48A3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2301344F22AEAB2B00D48A3E;
+			remoteInfo = TimensionWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2301347222AEAB2F00D48A3E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2301345D22AEAB2E00D48A3E /* TimensionWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2301347622AEAB2F00D48A3E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2301346E22AEAB2F00D48A3E /* TimensionWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2301343322AEAB1200D48A3E /* Timension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timension.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,10 +84,30 @@
 		2301344322AEAB1500D48A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2301344622AEAB1500D48A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2301344822AEAB1500D48A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2301345022AEAB2B00D48A3E /* TimensionWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimensionWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2301345522AEAB2D00D48A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2301345722AEAB2D00D48A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2301345C22AEAB2D00D48A3E /* TimensionWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TimensionWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2301346722AEAB2E00D48A3E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		2301346922AEAB2F00D48A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2301346B22AEAB2F00D48A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2301347722AEAC3300D48A3E /* Timension.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Timension.png; sourceTree = "<group>"; };
+		2301348222AEACDF00D48A3E /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		2301348522AEAD1E00D48A3E /* TimensionWatch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimensionWatch-Bridging-Header.h"; sourceTree = "<group>"; };
+		2301348622AEAD1F00D48A3E /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2301348722AEAD1F00D48A3E /* InterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2301348822AEAD1F00D48A3E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2301343022AEAB1200D48A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2301345922AEAB2D00D48A3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,7 +120,10 @@
 		2301342A22AEAB1200D48A3E = {
 			isa = PBXGroup;
 			children = (
+				2301347722AEAC3300D48A3E /* Timension.png */,
 				2301343522AEAB1200D48A3E /* Timension */,
+				2301345122AEAB2B00D48A3E /* TimensionWatch */,
+				2301346022AEAB2E00D48A3E /* TimensionWatch Extension */,
 				2301343422AEAB1200D48A3E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				2301343322AEAB1200D48A3E /* Timension.app */,
+				2301345022AEAB2B00D48A3E /* TimensionWatch.app */,
+				2301345C22AEAB2D00D48A3E /* TimensionWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +154,30 @@
 			path = Timension;
 			sourceTree = "<group>";
 		};
+		2301345122AEAB2B00D48A3E /* TimensionWatch */ = {
+			isa = PBXGroup;
+			children = (
+				2301348222AEACDF00D48A3E /* Interface.storyboard */,
+				2301345522AEAB2D00D48A3E /* Assets.xcassets */,
+				2301345722AEAB2D00D48A3E /* Info.plist */,
+			);
+			path = TimensionWatch;
+			sourceTree = "<group>";
+		};
+		2301346022AEAB2E00D48A3E /* TimensionWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2301348822AEAD1F00D48A3E /* GameScene.sks */,
+				2301348622AEAD1F00D48A3E /* GameScene.swift */,
+				2301348722AEAD1F00D48A3E /* InterfaceController.swift */,
+				2301346722AEAB2E00D48A3E /* ExtensionDelegate.swift */,
+				2301346922AEAB2F00D48A3E /* Assets.xcassets */,
+				2301346B22AEAB2F00D48A3E /* Info.plist */,
+				2301348522AEAD1E00D48A3E /* TimensionWatch-Bridging-Header.h */,
+			);
+			path = "TimensionWatch Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,15 +188,51 @@
 				2301342F22AEAB1200D48A3E /* Sources */,
 				2301343022AEAB1200D48A3E /* Frameworks */,
 				2301343122AEAB1200D48A3E /* Resources */,
+				2301347622AEAB2F00D48A3E /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				2301346D22AEAB2F00D48A3E /* PBXTargetDependency */,
 			);
 			name = Timension;
 			productName = Timension;
 			productReference = 2301343322AEAB1200D48A3E /* Timension.app */;
 			productType = "com.apple.product-type.application";
+		};
+		2301344F22AEAB2B00D48A3E /* TimensionWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2301347322AEAB2F00D48A3E /* Build configuration list for PBXNativeTarget "TimensionWatch" */;
+			buildPhases = (
+				2301344E22AEAB2B00D48A3E /* Resources */,
+				2301347222AEAB2F00D48A3E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2301345F22AEAB2E00D48A3E /* PBXTargetDependency */,
+			);
+			name = TimensionWatch;
+			productName = TimensionWatch;
+			productReference = 2301345022AEAB2B00D48A3E /* TimensionWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2301345B22AEAB2D00D48A3E /* TimensionWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2301346F22AEAB2F00D48A3E /* Build configuration list for PBXNativeTarget "TimensionWatch Extension" */;
+			buildPhases = (
+				2301345822AEAB2D00D48A3E /* Sources */,
+				2301345922AEAB2D00D48A3E /* Frameworks */,
+				2301345A22AEAB2D00D48A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimensionWatch Extension";
+			productName = "TimensionWatch Extension";
+			productReference = 2301345C22AEAB2D00D48A3E /* TimensionWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -104,6 +245,13 @@
 				ORGANIZATIONNAME = "Victor Hugo Telles";
 				TargetAttributes = {
 					2301343222AEAB1200D48A3E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					2301344F22AEAB2B00D48A3E = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					2301345B22AEAB2D00D48A3E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
@@ -122,6 +270,8 @@
 			projectRoot = "";
 			targets = (
 				2301343222AEAB1200D48A3E /* Timension */,
+				2301344F22AEAB2B00D48A3E /* TimensionWatch */,
+				2301345B22AEAB2D00D48A3E /* TimensionWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -133,9 +283,32 @@
 			files = (
 				2301344222AEAB1200D48A3E /* Main.storyboard in Resources */,
 				2301343922AEAB1200D48A3E /* GameScene.sks in Resources */,
+				2301347822AEAC3300D48A3E /* Timension.png in Resources */,
 				2301344422AEAB1500D48A3E /* Assets.xcassets in Resources */,
 				2301344722AEAB1500D48A3E /* LaunchScreen.storyboard in Resources */,
 				2301343B22AEAB1200D48A3E /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2301344E22AEAB2B00D48A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2301348B22AEAD1F00D48A3E /* GameScene.sks in Resources */,
+				2301345622AEAB2D00D48A3E /* Assets.xcassets in Resources */,
+				2301348322AEACDF00D48A3E /* Interface.storyboard in Resources */,
+				2301347922AEAC3300D48A3E /* Timension.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2301345A22AEAB2D00D48A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2301348C22AEAD1F00D48A3E /* GameScene.sks in Resources */,
+				2301348422AEACDF00D48A3E /* Interface.storyboard in Resources */,
+				2301346A22AEAB2F00D48A3E /* Assets.xcassets in Resources */,
+				2301347A22AEAC3300D48A3E /* Timension.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +325,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2301345822AEAB2D00D48A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2301348A22AEAD1F00D48A3E /* InterfaceController.swift in Sources */,
+				2301348922AEAD1F00D48A3E /* GameScene.swift in Sources */,
+				2301346822AEAB2E00D48A3E /* ExtensionDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2301345F22AEAB2E00D48A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2301345B22AEAB2D00D48A3E /* TimensionWatch Extension */;
+			targetProxy = 2301345E22AEAB2E00D48A3E /* PBXContainerItemProxy */;
+		};
+		2301346D22AEAB2F00D48A3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2301344F22AEAB2B00D48A3E /* TimensionWatch */;
+			targetProxy = 2301346C22AEAB2F00D48A3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2301344022AEAB1200D48A3E /* Main.storyboard */ = {
@@ -326,6 +522,103 @@
 			};
 			name = Release;
 		};
+		2301347022AEAB2F00D48A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LSYV88F25;
+				INFOPLIST_FILE = "TimensionWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tellesvh.Timension.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		2301347122AEAB2F00D48A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LSYV88F25;
+				INFOPLIST_FILE = "TimensionWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tellesvh.Timension.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		2301347422AEAB2F00D48A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LSYV88F25;
+				IBSC_MODULE = TimensionWatch_Extension;
+				INFOPLIST_FILE = TimensionWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tellesvh.Timension.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TimensionWatch Extension/TimensionWatch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		2301347522AEAB2F00D48A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LSYV88F25;
+				IBSC_MODULE = TimensionWatch_Extension;
+				INFOPLIST_FILE = TimensionWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tellesvh.Timension.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TimensionWatch Extension/TimensionWatch-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -343,6 +636,24 @@
 			buildConfigurations = (
 				2301344C22AEAB1500D48A3E /* Debug */,
 				2301344D22AEAB1500D48A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2301346F22AEAB2F00D48A3E /* Build configuration list for PBXNativeTarget "TimensionWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2301347022AEAB2F00D48A3E /* Debug */,
+				2301347122AEAB2F00D48A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2301347322AEAB2F00D48A3E /* Build configuration list for PBXNativeTarget "TimensionWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2301347422AEAB2F00D48A3E /* Debug */,
+				2301347522AEAB2F00D48A3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

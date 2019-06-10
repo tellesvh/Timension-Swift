@@ -1,13 +1,12 @@
 //
 //  GameScene.swift
-//  Timension
+//  TimensionWatch Extension
 //
-//  Created by Victor Hugo Telles on 10/06/19.
+//  Created by Victor Hugo Telles on 09/06/19.
 //  Copyright © 2019 Victor Hugo Telles. All rights reserved.
 //
 
 import SpriteKit
-import GameplayKit
 
 class GameScene: SKScene {
     
@@ -17,8 +16,8 @@ class GameScene: SKScene {
     
     override func sceneDidLoad() {
         if let minHand:SKSpriteNode = self.childNode(withName: "MinuteHand") as? SKSpriteNode,
-            let secHand:SKSpriteNode = self.childNode(withName: "SecondHand") as? SKSpriteNode,
-            let hHand:SKSpriteNode = self.childNode(withName: "HourHand") as? SKSpriteNode {
+           let secHand:SKSpriteNode = self.childNode(withName: "SecondHand") as? SKSpriteNode,
+           let hHand:SKSpriteNode = self.childNode(withName: "HourHand") as? SKSpriteNode {
             minuteHand = minHand
             secondHand = secHand
             hourHand = hHand
@@ -44,5 +43,4 @@ class GameScene: SKScene {
     func deg2rad(_ number: CGFloat) -> CGFloat {
         return number * .pi / 180
     }
-    
 }
