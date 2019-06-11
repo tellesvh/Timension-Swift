@@ -31,12 +31,12 @@ class GameScene: SKScene {
         let minutes = CGFloat(calendar.component(.minute, from: date))
         let seconds = CGFloat(calendar.component(.second, from: date))
         
-        let hoursAngle = -1 * deg2rad(hour * 30 + minutes/2)
+        let hoursAngle = -1 * deg2rad(hour * 30 + minutes / 2)
         let minutesAngle = -1 * deg2rad(minutes * 6)
         let secondsAngle = -1 * deg2rad(seconds * 6)
         
-        hourHand.run(.rotate(toAngle: hoursAngle, duration: 0.95, shortestUnitArc: true))
-        minuteHand.run(.rotate(toAngle: minutesAngle, duration: 0.95, shortestUnitArc: true))
+        hourHand.run(.rotate(toAngle: hoursAngle, duration: 1, shortestUnitArc: true))
+        minuteHand.run(.rotate(toAngle: minutesAngle, duration: 1, shortestUnitArc: true))
         secondHand.run(.rotate(toAngle: secondsAngle, duration: 0.95, shortestUnitArc: true))
     }
     
